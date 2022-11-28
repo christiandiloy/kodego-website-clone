@@ -1,0 +1,38 @@
+.center {
+    margin: auto;
+    width: 700px;
+    
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.imageFulltime {
+    width: 328px;
+    height: 200px;
+
+}
+
+.divFulltime {
+    width: 328px;
+    height: 570px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 30px;
+}
+
+.divParttime {
+    display: inline-block;
+    width: 328px;
+    height: 570px;
+    border: 1px solid black;
+}
+
+.block-details {
+    
+   
+    padding: 15px;
+}
+
+#course {
+    padding: 5px;
+}
