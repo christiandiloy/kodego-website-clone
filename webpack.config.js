@@ -6,7 +6,6 @@ module.exports = {
     filename: "bundled.js",
     path: path.resolve(__dirname, "app")
   },
-
   devServer: {
     before: function (app, server) {
       server._watch('./app/**/*.html')
@@ -17,7 +16,6 @@ module.exports = {
     host: '0.0.0.0'
   },
   mode: "development",
-
   module: {
     rules: [
       {
