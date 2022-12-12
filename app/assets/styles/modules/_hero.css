@@ -1,5 +1,19 @@
 .hero {
-    border: 1px solid black;
+    background: linear-gradient(
+        0deg,
+        rgba(40, 66, 101, 0.25),
+        rgba(40, 66, 101, 0.25)
+    ),
+    url("assets/images/banner-background.png");
+
+    &__container {
+        display: flex;
+    }
+
+    &__text-content {
+        width: 50%;
+        padding: 3.125rem;
+    }
 
     &__image-container {
         max-width: 50%;
