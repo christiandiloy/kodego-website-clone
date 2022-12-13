@@ -25,17 +25,17 @@
         display: none;
 
         @mixin atLaptopLarge {
-        display: flex;
-        justify-content: space-between;
-
-        & > ul {
             display: flex;
-            align-items: center;
+            justify-content: space-between;
 
-            & > li {
-            margin-right: 1em;
+            & > ul {
+                display: flex;
+                align-items: center;
+
+                & > li {
+                margin-right: 1em;
+                }
             }
-        }
         }
     }
 
