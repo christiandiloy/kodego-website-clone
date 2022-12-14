@@ -3,15 +3,15 @@
         0deg,
         rgba(40, 66, 101, 0.25),
         rgba(40, 66, 101, 0.25)
-    ),
-    url("assets/images/banner-background.png");
+        ),
+        url("assets/images/banner-background.png");
 
     &__container {
         display: flex;
         flex-direction: column;
 
         @mixin atLaptopLarge {
-            flex-direction: row;
+        flex-direction: row;
         }
     }
 
@@ -23,10 +23,10 @@
         font-size: 1.1em;
 
         @mixin atLaptopLarge {
-            margin-top: 3.125rem;
-            padding: 3.125rem;
-            text-align: left;
-            font-size: 1.2em;
+        margin-top: 3.125rem;
+        padding: 3.125rem;
+        text-align: left;
+        font-size: 1.2em;
         }
     }
 
@@ -42,7 +42,7 @@
         font-size: 1.75rem;
 
         @mixin atLaptopLarge {
-            font-size: 2.625rem;
+        font-size: 2.625rem;
         }
     }
 
